@@ -73,7 +73,8 @@ class RedBlackTree:
     def balance(self, node):
         if self.is_red(node.right) and not self.is_red(node.left):
             node = self.rotate_left(node)
-        if self.is_red(node.left) and self
+        if self.is_red(node.left) and self.is_red(node.left.left):
+            node = self.rotate_right(node)
         return node
 
     def rotate_left(self, node):
