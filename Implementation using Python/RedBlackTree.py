@@ -1,7 +1,7 @@
-# RedBlackTree.py
+#  RedBlackTree.py
 #  CPSC3620 Project
 #  Created by Henok Lamiso on 2021-11-26.
-# This file contains the implementation for Red-Black Tree Algorithms in Python
+#  This file contains the implementation for Red-Black Tree Algorithms in Python
 
 # define structure of a node in the tree
 class Node:
